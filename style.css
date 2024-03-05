@@ -1,0 +1,108 @@
+header{
+    display: flex;
+    flex-direction: row;
+    height: 31px;
+   
+     
+}
+body{
+    height: 600px;
+    background-color: #D9D9D9;
+    margin: 0%;
+    padding: 0%;
+}
+.cabeçario{
+    flex: 1;
+    background: #FF0000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    flex-direction: row;
+    
+}
+.cardmaior{
+    display: flex;
+    height: 110px;
+    background-color: #F5ABAB;
+    margin: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+   
+}
+nav{
+    flex-direction: row;
+    display: flex;
+    height: 50px;
+    margin: 40px;  
+}
+.item-menu01{
+    flex: 1;
+    background-color: #FF0000;
+    width: 95px;
+    margin-right: 30px;
+    font-size: 150%;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.item-menu02{
+    flex: 1;
+    background-color: #FF0000;
+    width: 95px;
+    margin-right: 30px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;  
+    text-align: center;
+}
+.item-menu03{
+    flex: 1;
+    background-color: #FF0000;
+    width: 95px;
+    margin-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;  
+    text-align: center;
+}
+.item-menu04{
+    flex: 1;
+    background-color: #FF0000;
+    width: 95px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;  
+}
+section-01{
+    flex-direction: row;
+    display: flex;
+    height: 270px;
+    margin: 40px;
+}
+.card01{
+    flex: 1;
+    background-color: #ffffff;
+    margin-right: 30px;
+    align-items: center;
+    text-align: center;
+}
+.card02{
+    flex: 1;
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+}
+nav-01{
+    flex-direction: row;
+    display: flex;
+    height: 100px;
+    margin: 40px;
+}
+.card03{
+    flex: 30%;
+    background-color: #F5ABAB;
+    margin-right: 30px;
+}
+.card04{
+    flex: 70%;
+    background-color: #F5ABAB;
+}
